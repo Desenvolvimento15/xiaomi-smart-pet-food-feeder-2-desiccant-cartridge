@@ -124,19 +124,6 @@
     overflow-wrap: break-word;
     }
     
-    .title-orange {
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(55deg, #ffbd4b 25%, #fd5f19 85%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
-    background-size: 150% 150%;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-align: center;
-    }
     
     .subtitle-left {
     text-align: left;
@@ -160,16 +147,7 @@
     margin-bottom: 1rem;
     }
 
-    .subtitle{
-    text-align: center;
-    font-size: 4.7rem;
-    font-weight: 300;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-    }
+
     
     .p-center {
     font-size: 1.1rem;
@@ -189,22 +167,7 @@
     overflow-wrap: break-word;
     }
     
-    .p-notas{
-    text-align: left;
-    font-size: 1rem;
-    padding: 5rem;
-    font-family: 'CamphorPro', sans-serif;
-    }
-        
-    .p{
-    font-size: 1.2rem;
-    text-align: left;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.5;
-    overflow-wrap: break-word;
-    width: 25rem;
-    }
+
     
     .icons-title-mp {
     font-size: 2rem;
@@ -262,6 +225,7 @@
     left: 0rem;
     bottom: 0rem;
     top: 11rem;
+    width: 43rem;
     }
 
     .grid-tree{
@@ -355,19 +319,6 @@
     overflow-wrap: break-word;
     }
     
-    .title-purple {
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(-55deg, #a39bed, #7169e1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
-    background-size: 150% 150%;
-    color: #000;
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-align: center;
-    }
     
     .subtitle-left {
     text-align: left;
@@ -403,11 +354,7 @@
     overflow-wrap: break-word;
     }
     
-    .p-notas {
-    text-align: left;
-    font-size: 0.9rem;
-    padding: 0.5rem;
-    }
+
     
     
     
