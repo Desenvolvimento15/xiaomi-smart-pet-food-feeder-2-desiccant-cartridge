@@ -13,9 +13,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
-    body{
-        background-color: #292929;
-    }
+    body{background-color: #292929;}
 
     @-ms-viewport {width: device-width;}
 
@@ -50,10 +48,6 @@
     .img-fluid {max-width: 100%; height: auto;}
     .img-mob{display: none;}
     .img-desk{display: block;}
-
-    .icons-size {width: 4rem; margin: 1rem;}
-    .icons-img-end{width: 40rem; margin: 0 auto; display: block; margin-top: 5rem;}
-
 
     /***************************** Roots Color ******************************************/
 
@@ -116,7 +110,7 @@
     }
 
     /***************************** Fonts Text ******************************************/
-
+    
     .title-xiaomi{
     text-align: left;
     font-size: 3rem;
@@ -125,7 +119,7 @@
     font-family: 'Xiaomi Brand';
     position: relative;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
     }
 
     .title-secont{
@@ -136,7 +130,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
     }
 
     .title-border{
@@ -147,7 +141,7 @@
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
     }
 
     .txt-title{
@@ -155,30 +149,30 @@
     text-align: left;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
-    line-height: 1.1;
+    line-height: 1.2;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
     }
 
     .subtitle{
     text-align: left;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: bold;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
     overflow-wrap: break-word;
-    line-height: 1.1;
-    margin-bottom: 2rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
     }
 
     .txt {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: left;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
-    line-height: 1.1;
+    line-height: 1.5;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     }
 
     .alert {
@@ -188,10 +182,9 @@
     position: relative;
     line-height: 1.1;
     overflow-wrap: break-word;
-    top: 10rem;
+    top: 5rem;
     color: #868686;
     }
-
 
     /***************************** Grid ******************************************/
 
@@ -208,32 +201,35 @@
 
     .grid-02 {
     position: absolute;
-    right: 41rem;
-    top: 7rem;
+    right: 47rem;
+    top: 4rem;
     bottom: 0;
-    height: 29rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     }
 
     .grid-03 {
     position: absolute;
-    left: 41rem;
-    top: 7rem;
+    left: 43rem;
+    top: 6rem;
     bottom: 0;
     height: 29rem;
     display: flex;
     flex-direction: column;
+    max-width: 40rem;
     }
 
     .grid-04 {
     position: absolute;
-    right: 43rem;
+    right: 39rem;
+    left: 5rem;
     top: 10rem;
     bottom: 0;
-    height: 22rem;
+    height: 23rem;
     display: flex;
     flex-direction: column;
+    max-width: 46rem;
     }
 
     /***************************** Conteudos ******************************************/
@@ -251,11 +247,10 @@
     .img-mob{display: block;}
 
     .border-title{
-        border: solid 0.2rem;
-        border-radius: 1rem;
-        padding: 0.3rem;
+    border: solid 0.2rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
     }
-
 
     /***************************** Grind Mobile ************************************/
 
@@ -309,13 +304,12 @@
     text-align: center;
     }
 
-
     /**************************TxT******************************/
 
     .title-xiaomi{
     text-align: center;
     font-size: 2rem;
-    line-height: 1.1;
+    line-height: 1.5;
     font-weight: 700;
     font-display: swap;
     font-family: 'Xiaomi Brand';
