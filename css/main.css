@@ -265,7 +265,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    height: 2rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -277,7 +277,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    height: 2rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -290,7 +290,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    height: 2rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -302,7 +302,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    height: 2rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -360,7 +360,7 @@
 
     .subtitle{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
@@ -368,7 +368,7 @@
     }
 
     .txt {
-    font-size: 0.99rem;
+    font-size: 1.1rem;
     text-align: center;
     font-family: 'CamphorPro', sans-serif;
     position: relative;
